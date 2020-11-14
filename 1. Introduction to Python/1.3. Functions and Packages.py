@@ -103,3 +103,8 @@ areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 
   # Print out dist
   print(dist)
+
+  ### DIFFERENT WAYS OF IMPORTING
+  
+  from scipy.linalg import inv as my_inv
+    # to access inv() function from linear algebra --> renamed as "my_inv"
