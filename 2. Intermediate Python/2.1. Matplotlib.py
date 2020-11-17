@@ -107,7 +107,7 @@
   
   #------------------------------------------#
   # Specify c and alpha inside plt.scatter()
-  plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c = col, alpha = 0.8)
+  plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c = col, alpha = 0.8)  #alpha: opacity, c: colour (developed via a dictionary)
 
   # Previous customizations
   plt.xscale('log') 
